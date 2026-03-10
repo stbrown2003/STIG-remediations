@@ -25,8 +25,6 @@
     PS C:\>(STIG-ID-WN11-AU-000500).ps1 
 #>
 
-# YOUR CODE GOES HERE
-
 # ==============================================================================
 # STIG Fix: Windows 11 - Application Event Log Maximum Size
 # STIG ID:  WN11-CC-000500 (or applicable control in your scan)
@@ -76,3 +74,4 @@ if ($Verify.$ValueName -eq $ValueData) {
     exit 1
 
 }
+
