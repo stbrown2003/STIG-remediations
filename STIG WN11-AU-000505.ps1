@@ -25,9 +25,6 @@
     PS C:\>(STIG-ID-WN11-AU-000505).ps1 
 #>
 
-# YOUR CODE GOES HERE
-
-
 # ==============================================================================
 # STIG Fix: Windows 11 - Security Event Log Maximum Size
 # Hive:     HKEY_LOCAL_MACHINE
@@ -76,3 +73,4 @@ if ($Verify.$ValueName -eq $ValueData) {
     exit 1
 
 }
+
