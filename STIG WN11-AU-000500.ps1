@@ -22,7 +22,7 @@
 .USAGE
     Put any usage instructions here.
     Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN11-AU-000500).ps1 
+    PS C:\>(STIG-ID-WN11-AU-000500).ps1 
 #>
 
 # YOUR CODE GOES HERE
@@ -74,4 +74,5 @@ if ($Verify.$ValueName -eq $ValueData) {
 } else {
     Write-Error "Verification FAILED. Please check the registry manually."
     exit 1
+
 }
