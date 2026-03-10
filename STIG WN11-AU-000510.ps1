@@ -25,8 +25,6 @@
     PS C:\>STIG-ID-WN11-AU-000510.ps1 
 #>
 
-# YOUR CODE GOES HERE
-
 # ==============================================================================
 # STIG Fix: Windows 11 - System Event Log Maximum Size
 # Hive:     HKEY_LOCAL_MACHINE
@@ -74,4 +72,5 @@ if ($Verify.$ValueName -eq $ValueData) {
 } else {
     Write-Error "Verification FAILED. Please check the registry manually."
     exit 1
+
 }
