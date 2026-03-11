@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-    This PowerShell script limits Enhanced Diagnostic Data for Windows Analytics
+    This PowerShell script disables Pre-XP SP2 Shell Protocol Behavior
 
 .NOTES
     Author          : Steven Brown
@@ -73,4 +73,5 @@ if ($Verify.$ValueName -eq $ValueData) {
 } else {
     Write-Error "Verification FAILED. Please check the registry manually."
     exit 1
+
 }
